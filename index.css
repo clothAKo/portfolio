@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #0F1822;
+}
+.banner-wrap{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.banner-wrap ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-wrap ul li{
+    font-size: 20px;
+}
+.banner-wrap ul li span{
+    font-size: 23px;
+    color: #FF4654;
+}
+.banner-wrap ul li:nth-child(3){
+    border-bottom: 1px solid #FF4654;
+    width: max-content;
+}
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.info img{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin: 10%;
+    border-bottom: #FF4654 solid 1px;
+}
+.main{
+    margin: 0 5% 0 5%;
+}
+.main li{
+    margin-left: 20px;
+}
+.main h2{
+    margin: 20px 0 20px 0;
+    padding-bottom: 5px;
+    border-bottom: #FF4654 solid 1px;
+    width: fit-content;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    font-weight: bold;
+}
+.about-me{
+    width: 50%;
+    text-align: center;
+}
+.about-me p{
+    font-size: 1.5rem;
+    margin: 20px 0 20px 0;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20%;
+    padding: 5%;
+    margin-top: 20%;
+    background-color: #090f16;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer ul li{
+    padding: 10px;
+}
+i{
+    font-size: 1.5rem;
+}
+i:hover{
+    color: #FF4654;
+}
