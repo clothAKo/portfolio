@@ -66,9 +66,20 @@ body{
 }
 .main{
     margin: 0 5% 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main span{
+    color: #FF4654;
+    
 }
 .main li{
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .main h2{
     margin: 20px 0 20px 0;
