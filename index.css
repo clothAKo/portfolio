@@ -181,3 +181,17 @@ i:hover{
         width: 380px;
     }
 }
+
+@media screen and (max-width:350px){
+    .footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 270px;
+    }
+    .certs img{
+        width: 250px;
+        height: auto;
+        overflow: visible;
+    }
+}
